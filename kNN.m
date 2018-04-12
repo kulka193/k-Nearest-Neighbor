@@ -1,4 +1,4 @@
-function [neighbors,idx] = kNN(X,test)
+function [neighbors,idx] = kNN(X,test,k)
 m=size(X,1);
 distances=zeros(m,1);
 for i=1:m
@@ -6,7 +6,7 @@ for i=1:m
 end
 idx=[];
 neighbors=[];
-for i=1:3
+for i=1:k
     [nearest,I]=min(distances);
     idx=[idx I];
     neighbors=[neighbors nearest];
