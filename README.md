@@ -7,7 +7,10 @@ The training phase of the algorithm consists only of storing the feature vectors
 Scatter Plots:
 ========
 Before Classification:
+
 ![1](https://user-images.githubusercontent.com/30439795/38649663-9cc0d876-3dbd-11e8-8833-9791932efe83.png)
 
-After Classification
+After Classification:
+
 ![2](https://user-images.githubusercontent.com/30439795/38649686-bb6d0894-3dbd-11e8-8c21-9735cbeb2142.png)
+========
